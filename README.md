@@ -29,3 +29,30 @@ breaking the existing behavior of the app.
 - **Edit** a task's title and status.
 - Handle missing or invalid JSON data safely (**Graceful Fail**).
 - **Bonus:** sort and filter tasks by status.
+
+---
+
+## Requirements
+
+- Python 3.10 or higher (due to `|` type hints)
+- PowerShell (Windows) or Bash (Linux/macOS)
+
+---
+
+## Installation & Setup
+
+```bash
+# 1. Create a virtual environment
+python -m venv .venv
+
+# 2. Activate it
+# Windows (PowerShell):
+.\.venv\Scripts\Activate.ps1
+# Linux/macOS:
+source .venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+python main.py --help
